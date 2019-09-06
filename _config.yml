@@ -6,7 +6,7 @@
 name: John Chynoweth
 
 # Short bio or description (displayed in the header)
-description: Full Stack Developer
+description: A blog for learning Modern Web Development
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars3.githubusercontent.com/u/295048?s=40&v=4
@@ -18,7 +18,7 @@ avatar: https://avatars3.githubusercontent.com/u/295048?s=40&v=4
 # Includes an icon in the footer for each username you enter
 footer-links:
   email: chynologic@outlook.com
-  github: barryclark/jekyll-now
+  github: chyno/chynologic-blog
   
   linkedin: https://www.linkedin.com/in/john-chynoweth-3873183/
   
@@ -34,13 +34,13 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url:
+url: "https://chyno.github.io"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: ""
+baseurl: "/chynologic-blog"
 
 #
 # !! You don't need to change any of the configuration flags below !!
@@ -69,6 +69,9 @@ sass:
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+
+  plugins:
+  - jekyll-seo-tag
 
 # Exclude these files from your production _site
 exclude:
