@@ -18,7 +18,7 @@ avatar: https://avatars3.githubusercontent.com/u/295048?s=40&v=4
 # Includes an icon in the footer for each username you enter
 footer-links:
   email: chynologic@outlook.com
-  github: barryclark/jekyll-now
+  github: chyno/chyno-blog
   
   linkedin: https://www.linkedin.com/in/john-chynoweth-3873183/
   
@@ -40,7 +40,7 @@ url: https://chyno.github.io
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: "/chynologic-blog"
+baseurl: 
 
 #
 # !! You don't need to change any of the configuration flags below !!
